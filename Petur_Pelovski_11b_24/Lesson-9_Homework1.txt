@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Petar_Pelovski</title>
+    </head>
+    
+    <style>
+		body {
+			background:darkblue;	
+		}
+		#login {
+			background:blue;
+			color:black;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:18px;
+			font-weight:bold;
+			padding:10px;
+			border-radius:10px;
+		}
+		#login input {
+			margin-bottom:10px;	
+		}
+		#interests {
+			border-radius:10px;
+			padding:10px;
+			background:blue;
+			color:black;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:18px;
+			font-weight:bold;
+		}
+		#interests input {
+			margin-bottom:10px;	
+		}
+	</style>
+    
+    <body>
+    	<form id="login">
+        	Welcome to tumblr
+            <br />
+            Username: <input type="text" />
+            <br />
+            E-mail: <input type="text" />
+            <br />            
+            Age(optional): <input type="text" />
+            <br />            
+            Password: <input type="password" />
+            <br />
+            Location(optional): <input type="text" />
+            <br />
+            Real name(optional): <input type="text" />             
+        </form>
+        <br />
+    	<form id="interests">
+        	Interests:
+            <br />
+            Sports: <input type="text" />
+            <br />            
+            Arts: <input type="text" />
+            <br />            
+            Other: <input type="password" />                    
+        </form>
+    </body>
+</html>
